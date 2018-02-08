@@ -1,0 +1,18 @@
+export PATH=/usr/local/Cellar/node/9.4.0/bin/.:$PATH
+cd ng5
+ng new ng5 --style=scss --routing
+cd ng5
+ng serve (http://localhost:4200/)
+
+ng generate component home
+ng generate component about
+
+
+npm install @angular/animations@latest --save
+
+ng generate service data
+
+
+mongod --dbpath /Users/valantrahome/projects/angular/mongo-data/
+
+collection.update({_id:"123"}, {$set: {author:"Jessica"}});
